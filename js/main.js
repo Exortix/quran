@@ -26,7 +26,7 @@ if (localStorage.getItem('quran') == true) {
 
 $.ajax({
     method:'GET',
-    url:'http://api.alquran.cloud/v1/quran/quran-uthmani',
+    url:'https://api.alquran.cloud/v1/quran/quran-uthmani',
     success:function (response) {
         quran = response.data.surahs;
         quran.forEach(e => {
