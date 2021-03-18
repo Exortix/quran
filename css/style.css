@@ -1,9 +1,8 @@
-html {
-    direction: rtl;
-}
-
 body {
     margin: 5px;
+}
+html {
+    direction: rtl;
 }
 
 center {
