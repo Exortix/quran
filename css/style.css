@@ -2,6 +2,10 @@ html {
     direction: rtl;
 }
 
+body {
+    margin: 5px;
+}
+
 center {
     padding-bottom: 10px;
 }
